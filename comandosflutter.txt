@@ -1,0 +1,15 @@
+QUANDO ESTIVER INTEGRADO O BACK COM BACO. 
+ABRA UM TERMINAL NO POWERSHEL DO VSCODE:
+🚀 Como Executar
+1. Clonar o repositório e instalar dependências: (NO CASO O QUE TE ENVIEI PELO ZAP MESMO:)
+cd crud_clientes
+
+git clone <URL_DO_REPOSITORIO>
+ 
+2. Executar o backend:
+dart pub get
+dart run bin/server.dart
+
+ai depois de rodar o back voce abre outra aba no mesmo terminal e excuta o flutter:
+3. Executar o Flutter Web:
+flutter run -d chrome
